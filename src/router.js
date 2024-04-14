@@ -12,6 +12,10 @@ const routes = [
     {
         path: '/photo',
         component: () => import('./pages/PhotosPage.vue') // lazy-loading
+    },
+    {
+        path: '*',
+        redirect: '/'
     }
 ];
 
