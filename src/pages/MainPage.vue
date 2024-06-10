@@ -3,7 +3,10 @@
     <v-container>
       <h1>Добро пожаловать в галерею </h1>
       <p>Исследуйте коллекцию изображений с JSON-Placeholder с возможностью добавить частичку себя...</p>
-      <v-btn color="primary" href="/photo">Смотреть</v-btn>
+      <router-link to="/photo">
+        <v-btn color="primary">Смотреть</v-btn>
+      </router-link>
+      
     </v-container>
   </div>
 </template>
